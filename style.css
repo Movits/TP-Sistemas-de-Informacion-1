@@ -1,1 +1,32 @@
-/* ;) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo {
+    color: whitesmoke;
+}
+.opciones {
+    display: flex;
+    gap: 20px;
+}
+.opciones a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.opciones a:hover {
+    color: red;
+}
+.contenedor-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
