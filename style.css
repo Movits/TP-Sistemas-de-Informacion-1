@@ -44,3 +44,14 @@ header {
 .contenedor-info h1{
     text-align: center;
 }
+
+footer {
+    background-color: #00a2ff;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
