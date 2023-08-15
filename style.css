@@ -49,9 +49,37 @@ footer {
     background-color: #00a2ff;
     color: whitesmoke;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.conteudo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto-footer p{
+    margin: 0;
+    margin-right: 5px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer img{
+    height: 25px;
+    width: 25px;
 }
