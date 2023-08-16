@@ -8,11 +8,11 @@ burgerIcon.addEventListener('click', () => {
 const form = document.getElementById('contact-form');
 
 form.addEventListener('submit', (event) => {
-    const name = form.querySelector('#nombre');
+    const nombre = form.querySelector('#nombre');
     const email = form.querySelector('#email');
     const mensaje = form.querySelector('#mensaje');
     
-    if (!name.value || !email.value || !mensaje.value) {
+    if (!nombre.value || !email.value || !mensaje.value) {
         event.preventDefault();
         alert('Please fill in all fields.');
     }
