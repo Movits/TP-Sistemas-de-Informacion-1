@@ -72,6 +72,10 @@ header {
     text-align: center;
 }
 
+#p-contacto {
+    text-align: center;
+}
+
 .contenedor-info h2,
 .contenedor-info p {
     background-color: #f9f9f9;
@@ -148,8 +152,23 @@ footer img{
     margin-top: 10px;
 }
 
+
 .btn-cta:hover {
     background-color: #0077c2;
+}
+
+.btn-plan {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00a2ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
 }
 
 .burger-icon {
@@ -261,4 +280,47 @@ footer img{
     border-radius: 5px;
     margin-top: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: calc(33.33% - 40px);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.plan-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan-box p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.plan-box ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.plan-box li {
+    font-size: 14px;
+    margin-bottom: 5px;
 }
