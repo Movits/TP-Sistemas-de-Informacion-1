@@ -29,6 +29,13 @@ header {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
 .opciones {
     display: flex;
     gap: 20px;
